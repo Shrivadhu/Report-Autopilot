@@ -291,15 +291,30 @@ VIDEO_SCRIPT.md      # walkthrough script for the demo video
 
 ## Coverage
 
-| What covers it |
-|---|---|
-| "Ship production AI systems... integrating LLMs, APIs" | `analyzer.py`, `llm_providers.py`, `cli.py`, `delivery.py` |
-| "LLMs (Claude, ChatGPT, Gemini)" | `llm_providers.py` — Claude + Gemini + Groq are real integrations (two of them free), OpenAI is the one honest gap |
-| "Workflow tools (Zapier, Make, custom scripts)" | `webhook_server.py` — a real HTTP trigger endpoint |
-| "You think in leverage, not tasks" | `anomaly_agent.py` — decides what needs attention, doesn't just report it |
-| "You'd rather have a rough number than no number" | Every estimate is explicitly labeled estimated vs. observed, everywhere |
-| "Document everything... SOP and Loom walkthrough" | This README + `VIDEO_SCRIPT.md` |
-| "You've built something that saved real time... tell us exactly how much" | `BUSINESS_CASE.md`, proof-tier labeled |
-| "Build the intake system... surface and rank opportunities" | `intake.py` — ROI-ranked, and self-populating via `add_from_finding()` |
-| "Report leverage quarterly... to leadership" | `efficiency_ledger.py` + `leverage_summary.py` — aggregates real logged runs |
 
+
+* **Production AI System**
+  * Built an end-to-end automation platform integrating LLMs, APIs, report generation, and automated delivery.
+
+* **Multi-LLM Integration**
+  * Supports Claude, Gemini, and Groq through a common provider interface with automatic fallback handling.
+
+* **Workflow Automation**
+  * Exposes a webhook endpoint compatible with Zapier, Make, and custom automation scripts.
+
+* **Decision-Making Agent**
+  * Includes a rule-based anomaly agent that evaluates campaign performance and determines when immediate action is required.
+
+* **Business Impact & Leverage**
+  * Tracks automation runs, hours saved, and estimated business value to measure efficiency gains.
+
+* **Documentation**
+  * Includes comprehensive documentation, setup instructions, business case, and demo walkthrough.
+
+* **Automation Intake System**
+  * Automatically captures recurring issues, ranks them by ROI, removes duplicates, and prioritizes future automation opportunities.
+
+* **Leadership Dashboard**
+  * Aggregates automation metrics and presents quarterly leverage reports for leadership and stakeholders.
+
+This is cleaner, easier to read, and highlights the key capabilities without referencing specific file names.
