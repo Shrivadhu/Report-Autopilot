@@ -12,7 +12,6 @@ Engineer JD that don't get addressed just by shipping one script:
 7. **A leverage dashboard** — *"Report leverage quarterly... to leadership."* Aggregates real logged runs, not a projection.
 
 **→ [BUSINESS_CASE.md](BUSINESS_CASE.md)** — the RPE/efficiency-value math, in the JD's own vocabulary, with every number labeled by proof tier (observed/estimated/benchmarked/assumed).
-**→ [VIDEO_SCRIPT.md](VIDEO_SCRIPT.md)** — walkthrough script used for the demo video.
 
 ## The agent: deciding, not just narrating
 
@@ -290,9 +289,9 @@ BUSINESS_CASE.md    # RPE math in the JD's vocabulary, proof-tier labeled
 VIDEO_SCRIPT.md      # walkthrough script for the demo video
 ```
 
-## What each piece maps to in the JD (explicit, not left as an exercise)
+## Coverage
 
-| JD line | What covers it |
+| What covers it |
 |---|---|
 | "Ship production AI systems... integrating LLMs, APIs" | `analyzer.py`, `llm_providers.py`, `cli.py`, `delivery.py` |
 | "LLMs (Claude, ChatGPT, Gemini)" | `llm_providers.py` — Claude + Gemini + Groq are real integrations (two of them free), OpenAI is the one honest gap |
