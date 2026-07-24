@@ -1,0 +1,11 @@
+{
+  "client_name": "Acme Corp",
+  "agency_name": "Single Grain",
+  "brand_color": "#f27038",
+  "delivery": {
+    "email": {
+      "to": ["client-contact@example.com"]
+    },
+    "slack_webhook_url": null
+  }
+}

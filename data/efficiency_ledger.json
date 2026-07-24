@@ -1,0 +1,38 @@
+[
+  {
+    "client": "Acme Corp",
+    "automation": "report_autopilot",
+    "minutes_saved_estimate": 110,
+    "timestamp": "2026-07-24T20:36:56.504979+00:00"
+  },
+  {
+    "client": "Acme Corp",
+    "automation": "report_autopilot",
+    "minutes_saved_estimate": 110,
+    "timestamp": "2026-07-24T20:42:00.430526+00:00"
+  },
+  {
+    "client": "Acme Corp",
+    "automation": "report_autopilot",
+    "minutes_saved_estimate": 110,
+    "timestamp": "2026-07-24T20:42:20.670727+00:00"
+  },
+  {
+    "client": "Acme Corp",
+    "automation": "report_autopilot",
+    "minutes_saved_estimate": 110,
+    "timestamp": "2026-07-24T20:44:21.115293+00:00"
+  },
+  {
+    "client": "Acme Corp",
+    "automation": "webhook_trigger",
+    "minutes_saved_estimate": 110,
+    "timestamp": "2026-07-24T20:47:45.464019+00:00"
+  },
+  {
+    "client": "Crashing Client",
+    "automation": "report_autopilot",
+    "minutes_saved_estimate": 110,
+    "timestamp": "2026-07-24T20:50:14.212128+00:00"
+  }
+]

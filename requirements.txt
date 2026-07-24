@@ -1,0 +1,10 @@
+anthropic>=0.40
+google-genai>=0.3
+groq>=0.11
+reportlab>=4.0
+matplotlib>=3.8
+pandas>=2.0
+requests>=2.31
+pytest>=7.4
+streamlit>=1.35
+flask>=3.0
